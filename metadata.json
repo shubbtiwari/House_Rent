@@ -1,0 +1,5 @@
+{
+  "name": "HouseHunt",
+  "description": "A premium real estate platform for renting, buying, and selling properties with AI-powered market insights.",
+  "requestFramePermissions": ["geolocation"]
+}

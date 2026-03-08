@@ -1,33 +1,20 @@
-# MERN Stack Web Application
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-## 📌 Project Overview
+# Run and deploy your AI Studio app
 
-This project is a **full-stack web application built using the MERN stack** (MongoDB, Express.js, React.js, and Node.js).
+This contains everything you need to run your app locally.
 
-The goal of this project is to demonstrate the implementation of a scalable full-stack architecture where the frontend communicates with a backend API and stores data in a MongoDB database.
+View your app in AI Studio: https://ai.studio/apps/32d06eff-bcf6-42d8-b97c-fa81bb237c32
 
-The application follows modern development practices such as modular project structure, REST API design, and component-based frontend architecture.
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-## 🚀 Tech Stack
 
-### Frontend
-
-* React.js
-* JavaScript
-* HTML5
-* CSS3
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database
-
-* MongoDB
-
-### Tools & Technologies
-
-* G
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
